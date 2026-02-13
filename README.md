@@ -1,8 +1,14 @@
 # Pulse-Code-Modulation
 # Aim
-Write a simple Python program for the modulation and demodulation of PCM, and DM.
+    Write a simple Python program for the modulation and demodulation of PCM, and DM.
 # Software required
-Google Collab
+    Google Colab
+# Theory
+    PCM, a message signal is represented by a sequence of coded pulse, which is accomplished by representing the signal in discrete form in both time and amplitude. A signal is sampled at a rate slightly higher than the Nyquist rate as usually done in PCM. PCM system are sampling, quantizing and encoding, the low pass filterprior to sampling is included to prevent aliasing of the message signal. The quantization and encoding operations are usually performed in thesame circuits, which is called an analog-to digital converter.
+
+    DM is subject to two noise types of quantization error: slope overload distortion and granular noise.The digital equivalent of integration in the sense that it represent the accumulation of positive and negative increments of magnitude of ∆.The maximum slope of the staircase approximation 𝑚𝑞 𝑡 is fixed by the step size ∆, increases and decreases in 𝑚𝑞 𝑡 tend to occur along straight lines. A delta modulator using fixed step size is often referred to as a linear delta modulation .  
+
+
 # Program
 # Pulse Code Modulation
 ```python
